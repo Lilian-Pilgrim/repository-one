@@ -1,17 +1,36 @@
 
 .navbar-inverse{
-  font-size: 14pt;
-  color:#DC143C;
-  background-color: #4B0082;
+  font-size: 16pt;
+  /*color: black;*/
+  background-color: transparent;
+  border-color: transparent;
 }
 
+.navbar-brand{
+  font-size: 20pt;
+}
+
+.jumbotron{
+   background-image: url('images/nibras-riyami.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+
+   max-height: none;
+ }
+
+.about{
+  background-color: pink
+  padding: 100pt;
+}
+/*.nav.navbar-nav.navbar-right li a {
+    color: black;
+    }
+*/
 
 h1{
  text-align: center; font-size: 30pt;
   padding-left: 16px;
  }
-
-
 
  ul
   {
@@ -19,22 +38,15 @@ h1{
     overflow: hidden;
   }
 
-
 dl{
-   background-color: lightgreen;
+  background-image: url(images/jess-watters-pencils.jpg);
+  background-size: cover;
+  padding: 10pt;
+  max-height: none;
 }
-
-
-.jumbotron{
-   background-image: url('images/wildflower2.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   max-height: 700px;
- }
-
-#welcome{
-  background-color: #FDF5E6;
+/*body{
+  background-color: #92a8d1;
   background-size: cover;
   background-attachment: fixed;
    max-height: cover;
-}
+}*/
