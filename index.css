@@ -1,22 +1,21 @@
 
 .navbar-inverse{
-  font-size: 16pt;
-  /*color: black;*/
-  background-color: transparent;
-  border-color: transparent;
+  font-size: 13pt;
+  color: #001a33;
+  background-image: url('images/nibras-riyami.jpg');max-width: 100%; height:auto;
+    border-color: transparent;
 }
 
 .navbar-brand{
-  font-size: 20pt;
+  font-size: 16pt;
 }
 
 .jumbotron{
-   background-image: url('images/nibras-riyami.jpg');
-   background-size: cover;
+   background-image: url('images/nibras-riyami.jpg'); max-width: 100%; height:auto;
    background-attachment: fixed;
-
-   max-height: none;
+  max-height: none;
  }
+
 
 .about{
   background-color: pink

@@ -10,8 +10,39 @@
     <!make it device friendly>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='css/bootstrap.min.css' rel='stylesheet'>
-
   <link rel="stylesheet" type="text/css" href="index.css">
+  <style>
+  #image{
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 65px
+  }
+
+  #address{
+    padding: 35px;
+    text-align:center;
+    margin-top:330px;
+    font-size: 1.2em;
+
+    "opacity:0.3;
+    position:relative;left:50px;top:-100px;width:310px;height:160px;
+    background-color:#fff0b3;
+    border-radius:20px
+  }
+
+  #contact{
+    margin-top:10px;
+    width:730px;
+    height:1000px;
+    padding-left: 55px;
+    border-radius:30px;
+    border:5px solid #EE872A;
+    background-color: #fff0b3;
+    opacity: 0.7;
+
+  }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -30,7 +61,7 @@
     <div class="collapse navbar-collapse">
     <ul class="nav navbar-nav navbar-right">
     <li><a href="index.html">Home</a></li>
-    <li><a href="essences.html">Essences</a></li>
+    <li><a href="essences.html">Flower Essences</a></li>
     <li><a href="about.html">About</a></li>
     <li class="active"><a href="contact.html">Contact</a></li>
       </ul>
@@ -38,35 +69,36 @@
     </nav>
     </div>
 
-      <div class="jumbotron"><! style="background-image: url(images/joanna-kosinska-envelops.jpg)">
+      <div class="jumbotron">
       <div id="title" class="container">
             <div class="row">
             <div class="col-sm-12">
-    <h1>Contact</h1>
+    <h1 style="color:#ff6600">Contact</h1>
     </div>
     </div>
     </div>
     </div>
 
-    <div class="about">
+    <div id="about">
       <div class="container">
-
         <div class="row">
-          <div class="col-sm-3">
-            <img class="img-circle img-responsive center-block" src="./images/lilian3.jpg" width="220"; height="100">
-            <h3 style="text-align:center"><b>Lilian Pilgrim</b><br></h3>
-            <address style="text-align:center">
-              E-mail: lilianpilgrim@gmail<br>
-              Telephone: +44 7793 014 939
+          <div class="col-sm-4">
+            <img id="image" class="img-circle img-responsive center-block" src="./images/lilian3.jpg" height="150" width="220";>
+              <address id="address" >
+               Lilian Pilgrim<br>
+              <i class="glyphicon glyphicon-envelope" style="font-size:18px";></i>:  lilianpilgrim@gmail<br>
+              <i class="glyphicon glyphicon-phone" style="font-size:18px";></i>: +44 7793 014 939
             </address>
          </div>
 
-          <div class="col-sm-9">
+          <div  id="contact" class="col-sm-8">
+
+
             <h3 style="text-align:center">Contact </h3>
 
               <p style="font-size:13pt">
                 In order to best serve you, please fill in the fields bellow to submit an email.
-                I will endeavour to get back to you within 48 hours.
+                I will endeavour to get back to you within 48 hours.<br><small> *Alternatively contact me directly using the detail on the side.</small><br><br>
               </p>
 
             <form action="/form-processing-script" method="post">
@@ -84,9 +116,10 @@
               <label for="fullname">Full Name:</label><br>
               <input type="text" name="fullname"><br><br>
               <label for="email">E-mail Address: </label><br>
-              <input type="text" name="email"><br><br>
+              <input type="email" name="email"><br><br>
               <input type="submit" value="Submit">
             </form>
+          </div>
      </div>
    </div>
  </div>
